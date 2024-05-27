@@ -1,0 +1,18 @@
+<table>
+  <tr>
+    <th scope="col">nombre</th>
+    <th scope="col">apellido</th>
+    <th scope="col">edad</th>
+    <th scope="col">posicion</th>
+  </tr>
+  <tbody>
+    <ng-container *ngFor="let snkchar of jugadores">
+      <tr>
+        <td>{{ snkchar.nombre }}</td>
+        <td>{{ snkchar.apellido }}</td>
+        <td>{{ snkchar.edad }}</td>
+        <td>{{ snkchar.posicion }}</td>
+      </tr>
+    </ng-container>
+  </tbody>
+</table>
